@@ -106,13 +106,13 @@ table.margin-30{
 	Margin:30px 15px;
 }
 .card{
-	Margin:0 15px 40px 15px;
+	Margin: 40px 15px;
 }
 .card-border-bottom{
 	width: 100%;
 }
 .card-border-bottom td{
-	border-bottom:1px solid #ABC1C4;
+	border-bottom:1px solid #DFE5E5;
 	font-size:0;
 	line-height:0;
 }
@@ -166,10 +166,13 @@ Title and Subtitle
 	font-weight:bold;
 	Margin:30px 0;
 }
-.subtitle{
-	font-size:24px;
+
+.subtitle {
+  display: inline-block;
+  width: 90%;
+	font-size:23px;
 	text-align:center;
-	Margin:30px 0;
+	padding:30px 0;
 }
 
 /* ------------------------------------------------------------------
@@ -233,9 +236,10 @@ Buttons
 	font-size:16px;
 	font-weight:bold;
 }
-.btn-filled-green,.btn-primary{
-	background-color:#69C62C;
-	border:1px solid #69C62C;
+.btn-filled-green,
+.btn-primary{
+	background-color:#7ED321;
+	border-radius: 25px;
 }
 .btn-filled-green td a,.btn-filled-blue td a, .btn-primary td a, .btn-filled-orange td a{
 	color:#FFFFFF;
@@ -255,7 +259,8 @@ Buttons
 	background-color:#FE6A01;
 	border:1px solid #FE6A01;
 }
-.btn-outline-green,.btn-secondary{
+.btn-outline-green,
+.btn-secondary {
 	border-color:#69C62C;
 	border:1px solid #69C62C;
 }
@@ -378,6 +383,15 @@ Pills
 }
 .pill-outline-orange td{
 	color: #FE6A01;
+}
+
+/* ------------------------------------------------------------------
+Links
+------------------------------------------------------------------ */
+
+.link__text--dark {
+  font-size: 18px;
+  color: #495659;
 }
 
 /* ------------------------------------------------------------------
